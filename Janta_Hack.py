@@ -39,22 +39,6 @@ print(missing_val_count_by_column[missing_val_count_by_column > 0])
 
 
 
-# # Drop columns with missing values
-#
-# # Fill in the line below: get names of columns with missing values
-# cols_with_missing = [col for col in X_train.columns
-#                      if X_train[col].isnull().any()] # Your code here
-#
-# # Fill in the lines below: drop columns in training and validation data
-# reduced_X_train = X_train.drop(cols_with_missing, axis=1)
-# reduced_X_valid = X_valid.drop(cols_with_missing, axis=1)
-#
-#
-# print(reduced_X_train.shape)
-# print(reduced_X_valid.shape)
-
-
-
 
 # Imputation
 
